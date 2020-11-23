@@ -1,4 +1,4 @@
-# Axpe - Prueba técnica - Ejercicio 2 : computer :
+# Axpe - Prueba técnica - Ejercicio 2
 
 :round_pushpin: Proyecto web responsive desarrollado con React y Google Maps API 
 
