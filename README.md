@@ -17,6 +17,7 @@ Para ejecutar la aplicacion desde tu ordenador:
   2) En la raíz del proyecto, desde tu terminal, ejecutar:
     
     `npm install`
+    
   3) Luego, ejecutar:
    
    `npm start`
