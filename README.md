@@ -7,7 +7,7 @@ La web app dispone de un mapa centrado en la ubicación actual y un buscador con
 
 Conforme el usuario escriba se mostra una lista de sugerencias, destacadas las coincidencias con los términos de búsqueda.
 
-Cuando el usuario selecciona uno de los resultados, el mapa se mueve para la posicion elijida y se muestra un marcador. A cada nueva busqueda, se mantienen en el mapa los marcadores antes seleccionados.
+Cuando el usuario selecciona uno de los resultados, el mapa se mueve y se muestra un marcador indicando la ubicación elegida. A cada nueva busqueda, se mantienen en el mapa los marcadores antes seleccionados.
 
 ## Instrucciones para ejecutar la app
 Para ejecutar la aplicacion desde tu ordenador: 
