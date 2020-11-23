@@ -11,6 +11,8 @@ import SearchBox from './SearchBox';
 
 import "@reach/combobox/styles.css";
 
+const REACT_APP_GOOGLE_MAPS_API_KEY="AIzaSyAqQB20SNx72OcaO9292AJuQJNBjnsUvPo"
+
 const libraries = ["places"];
 const mapContainerStyle = {
   height: "100vh",
@@ -24,7 +26,7 @@ const options = {
 
 export default  function InitMap() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries,
   });
   const [markers, setMarkers] = useState([]);
