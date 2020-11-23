@@ -20,10 +20,9 @@ const options = {
   styles: mapStyles,
   disableDefaultUI: true,
   zoomControl: true,
-
 }
 
-export default function InitMap() {
+export default  function InitMap() {
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries,
@@ -49,10 +48,11 @@ export default function InitMap() {
     navigator.geolocation.getCurrentPosition(position);
   })
   
-  const onPlaceSelected = ({ lat, lng }) => 
-  setMarkers(current => 
-    [...current, { lat, lng }]
-    )
+  const onPlaceSelected = ({ lat, lng }) => {
+    setMarkers(current => 
+      [...current, { lat, lng }]
+      )
+  }
 
   const panTo = React.useCallback(({ lat, lng }) => {
     mapRef.current.panTo({ lat, lng });

@@ -21,7 +21,7 @@ function SearchBox({ panTo }) {
     clearSuggestions,
   } = usePlacesAutocomplete()
   return (
-    <div className="search teste">
+    <div className="search">
       <Combobox
       onSelect={async (address) => {
         setValue(address, false);

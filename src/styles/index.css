@@ -23,6 +23,13 @@ code {
   padding: 0;
 }
 
+@media (max-width: 600px){
+  .axpe-logo{
+    bottom: 1rem; 
+    top: unset;
+  }
+}
+
 .search {
   position: absolute;
   top: 1rem;
