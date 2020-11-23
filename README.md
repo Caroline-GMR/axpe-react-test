@@ -12,7 +12,7 @@ Cuando el usuario selecciona uno de los resultados, el mapa se mueve y se muestr
 ## Instrucciones para ejecutar la app
 Para ejecutar la aplicacion desde tu ordenador: 
 
-  1) Descargar el repositorio;
+  1) Descargar o clonar el repositorio;
   
   2) En la raíz del proyecto, desde tu terminal, ejecutar:
     
